@@ -25,4 +25,4 @@ Professional dashboard for TikTok advertising campaign analysis with dark theme 
 
 ## 🌐 Demo
 
-[View live demo](https://your-app.streamlit.app)
+[View live demo](https://tiktok-data-dashboard.streamlit.app/)
