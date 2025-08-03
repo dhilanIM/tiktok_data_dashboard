@@ -21,10 +21,6 @@ st.set_page_config(
 # Cargar estilos CSS
 load_css('styles.css')
 
-# Health check para Railway
-st.sidebar.markdown("🟢 **Status:** Online")
-st.sidebar.markdown(f"🌐 **Environment:** {'Production' if os.getenv('RAILWAY_ENVIRONMENT') else 'Development'}")
-
 # Obtener paleta de colores
 colors = get_color_palette()
 
