@@ -30,7 +30,7 @@ st.markdown("<h1 class='main-header'>TikTok Ads Dashboard</h1>", unsafe_allow_ht
 clean_tiktok_df = pd.read_csv('clean_tiktok_df.csv')
 
 # Sidebar para navegación
-st.sidebar.title("🎯 Navigation Menu")
+st.sidebar.title("🎯 Menu")
 menu_option = st.sidebar.selectbox(
     "Select an option:",
     ["📈 Dashboard", "📉 Linear Regression"]
