@@ -5,6 +5,7 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import plotly.graph_objects as go
+import os
 
 # Importar utilidades de estilo
 from style_utils import load_css, apply_plotly_dark_theme, get_color_palette
@@ -19,6 +20,10 @@ st.set_page_config(
 
 # Cargar estilos CSS
 load_css('styles.css')
+
+# Health check para Railway
+st.sidebar.markdown("🟢 **Status:** Online")
+st.sidebar.markdown(f"🌐 **Environment:** {'Production' if os.getenv('RAILWAY_ENVIRONMENT') else 'Development'}")
 
 # Obtener paleta de colores
 colors = get_color_palette()
