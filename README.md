@@ -23,6 +23,6 @@ Professional dashboard for TikTok advertising campaign analysis with dark theme 
 2. **Linear Regression**: Analyze correlations between variables
 
 
-## 🌐 Demo
+##  Demo
 
 [View live demo](https://tiktok-data-dashboard.up.railway.app/)
