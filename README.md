@@ -2,14 +2,14 @@
 
 Professional dashboard for TikTok advertising campaign analysis with dark theme and interactive visualizations.
 
-## 🚀 Features
+##  Features
 
 - **Analytics Dashboard**: Key performance metrics for ads
 - **Linear Regression**: Predictive analysis between variables
 - **Top Creatives**: Ranking of best performing creatives by metrics
 - **Dark Theme**: Professional and modern design
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - Streamlit
@@ -17,7 +17,7 @@ Professional dashboard for TikTok advertising campaign analysis with dark theme 
 - Plotly
 - Scikit-learn
 
-## 🎯 Usage
+##  Usage
 
 1. **Dashboard**: View general campaign metrics
 2. **Linear Regression**: Analyze correlations between variables
